@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Static ring used for the widget picker preview and while the widget first loads. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+    <path android:fillColor="#FFFFFF"
+        android:pathData="M50,3 a47,47 0 1,1 0,94 a47,47 0 1,1 0,-94 Z" />
+    <path android:strokeColor="#C0C0C0" android:strokeWidth="1.6"
+        android:pathData="M50,3.8 a46.2,46.2 0 1,1 0,92.4 a46.2,46.2 0 1,1 0,-92.4" />
+    <path android:strokeColor="#03B4E8" android:strokeWidth="7.3"
+        android:pathData="M50,6.65 A43.35,43.35 0 1,1 14.93,24.52" />
+    <path android:strokeColor="#000000" android:strokeWidth="1.6"
+        android:strokeLineJoin="round" android:strokeLineCap="round"
+        android:pathData="M45,38 L52,32 L52,68" />
+</vector>

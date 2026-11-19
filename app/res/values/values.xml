@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Countdown</string>
+    <string name="widget_name">Countdown</string>
+    <string name="config_title">Countdown</string>
+    <string name="widget_description">Days left until a date, in a ring</string>
+    <string name="label_hint">Label (optional)</string>
+    <string name="label_title">Label</string>
+    <string name="date_title">Date</string>
+    <string name="color_title">Colour</string>
+    <string name="save">Save</string>
+    <string name="main_text">To add a countdown:\n\n1. Long-press an empty spot on your home screen.\n2. Tap Widgets.\n3. Find Countdown and drag it onto the home screen.\n4. Pick a date and label, then tap Save.\n\nTap a countdown on your home screen at any time to change it.</string>
+
+    <color name="icon_background">#EEF1F3</color>
+    <color name="accent">#03B4E8</color>
+
+    <style name="AppTheme" parent="@android:style/Theme.Material.Light.DarkActionBar">
+        <item name="android:colorPrimary">#0288B4</item>
+        <item name="android:colorPrimaryDark">#01769C</item>
+        <item name="android:colorAccent">@color/accent</item>
+    </style>
+</resources>

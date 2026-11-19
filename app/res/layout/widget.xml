@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Circle with the label tucked directly under it; the pair is centred in the cell
+     (rather than the label being pinned to the cell's bottom edge). -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="2dp">
+
+    <!-- wrap_content + adjustViewBounds makes the view exactly as tall as the (square)
+         circle, so there's no slack between it and the label. (No layout_weight: that
+         would hand the view all the spare height and push the label to the bottom.) -->
+    <ImageView
+        android:id="@+id/ring"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/preview"
+        android:contentDescription="@string/widget_name" />
+
+    <!-- Label under the circle, styled like a home-screen app name. -->
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:includeFontPadding="false"
+        android:textSize="14sp"
+        android:textColor="#FFFFFF"
+        android:shadowColor="#99000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="3"
+        android:visibility="gone" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+# Build output
+build/
+*.apk
+*.idsig
+
+# Signing key: back this up separately. Updates only install over the app if signed with the same key.
+*.keystore
+
+# Screenshots
+*.jpg
+*.png
