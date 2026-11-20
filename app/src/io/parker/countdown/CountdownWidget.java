@@ -1,4 +1,4 @@
-package com.simple.countdown;
+package io.parker.countdown;
 
 import android.app.AlarmManager;
 import android.app.PendingIntent;
@@ -16,7 +16,7 @@ import java.time.LocalDate;
 import java.time.ZoneId;
 
 public class CountdownWidget extends AppWidgetProvider {
-    static final String ACTION_REFRESH = "com.simple.countdown.REFRESH";
+    static final String ACTION_REFRESH = "io.parker.countdown.REFRESH";
     private static final int BITMAP_SIZE = 400;
 
     @Override

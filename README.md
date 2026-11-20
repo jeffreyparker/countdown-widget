@@ -48,7 +48,7 @@ The signed APK is written to `Countdown.apk`.
 app/
 ├── AndroidManifest.xml
 ├── res/                          layouts, widget metadata, icon
-└── src/com/simple/countdown/
+└── src/io/parker/countdown/
     ├── CountdownWidget.java      widget provider and midnight refresh
     ├── Renderer.java             draws the ring and day count
     ├── ConfigActivity.java       label, date and colour screen

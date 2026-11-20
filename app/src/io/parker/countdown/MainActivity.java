@@ -1,4 +1,4 @@
-package com.simple.countdown;
+package io.parker.countdown;
 
 import android.app.Activity;
 import android.os.Bundle;

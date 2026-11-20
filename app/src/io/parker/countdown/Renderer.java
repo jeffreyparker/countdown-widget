@@ -1,4 +1,4 @@
-package com.simple.countdown;
+package io.parker.countdown;
 
 import android.graphics.Bitmap;
 import android.graphics.Canvas;

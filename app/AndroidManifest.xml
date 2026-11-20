@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.simple.countdown">
+    package="io.parker.countdown">
 
     <!-- Only to restore the midnight refresh after a reboot. No internet permission: no ads, no tracking. -->
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
