@@ -17,6 +17,14 @@ Requires Android 8.0 or later.
 
 ## Install
 
+### With Obtainium (recommended)
+
+[<img src="https://raw.githubusercontent.com/ImranR98/Obtainium/main/assets/graphics/badge_obtainium.png" alt="Get it on Obtainium" height="54">](https://apps.obtainium.imranr.dev/redirect?r=obtainium://add/https://github.com/jeffreyparker/countdown-widget)
+
+Tap the badge on your phone, or add `https://github.com/jeffreyparker/countdown-widget` in [Obtainium](https://github.com/ImranR98/Obtainium). Obtainium installs Countdown and keeps it up to date.
+
+### Manually
+
 1. Download the latest `Countdown-x.y.apk` from [Releases](../../releases) on your phone.
 2. Open it. If Android asks, allow installs from your browser or file manager.
 3. Long-press your home screen, tap **Widgets**, find **Countdown** and drag it out.
